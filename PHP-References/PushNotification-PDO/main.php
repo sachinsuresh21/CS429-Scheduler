@@ -3,7 +3,7 @@
     // set_time_limit(0);
     
     // connect to DB
-    require_once 'pwsd.php';
+    require_once 'pwsd.php';    // file omitted
     
     try {
         $dbh = new PDO("mysql:host=nchen10.projects.cs.illinois.edu;dbname=nchen10_push", $user, $password);
