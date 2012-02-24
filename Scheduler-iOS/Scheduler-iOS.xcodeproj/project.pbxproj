@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11F7A5C014F76DA8006EC476 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F7A5BF14F76DA8006EC476 /* UIKit.framework */; };
+		11F7A5C214F76DA8006EC476 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F7A5C114F76DA8006EC476 /* Foundation.framework */; };
+		11F7A5C414F76DA8006EC476 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F7A5C314F76DA8006EC476 /* CoreGraphics.framework */; };
+		11F7A5CA14F76DA8006EC476 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11F7A5C814F76DA8006EC476 /* InfoPlist.strings */; };
+		11F7A5CC14F76DA8006EC476 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F7A5CB14F76DA8006EC476 /* main.m */; };
+		11F7A5D014F76DA8006EC476 /* SchedulerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F7A5CF14F76DA8006EC476 /* SchedulerAppDelegate.m */; };
+		11F7A5D314F76DA8006EC476 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F7A5D114F76DA8006EC476 /* MainStoryboard_iPhone.storyboard */; };
+		11F7A5D614F76DA8006EC476 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F7A5D414F76DA8006EC476 /* MainStoryboard_iPad.storyboard */; };
+		11F7A5D914F76DA8006EC476 /* SchedulerMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F7A5D814F76DA8006EC476 /* SchedulerMasterViewController.m */; };
+		11F7A5DC14F76DA8006EC476 /* SchedulerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F7A5DB14F76DA8006EC476 /* SchedulerDetailViewController.m */; };
+		11F7A5E414F76DA8006EC476 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F7A5E314F76DA8006EC476 /* SenTestingKit.framework */; };
+		11F7A5E514F76DA8006EC476 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F7A5BF14F76DA8006EC476 /* UIKit.framework */; };
+		11F7A5E614F76DA8006EC476 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F7A5C114F76DA8006EC476 /* Foundation.framework */; };
+		11F7A5EE14F76DA8006EC476 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11F7A5EC14F76DA8006EC476 /* InfoPlist.strings */; };
+		11F7A5F114F76DA8006EC476 /* Scheduler_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F7A5F014F76DA8006EC476 /* Scheduler_iOSTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11F7A5E714F76DA8006EC476 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11F7A5B214F76DA7006EC476 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11F7A5BA14F76DA7006EC476;
+			remoteInfo = "Scheduler-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11F7A5BB14F76DA8006EC476 /* Scheduler-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scheduler-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11F7A5BF14F76DA8006EC476 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		11F7A5C114F76DA8006EC476 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		11F7A5C314F76DA8006EC476 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		11F7A5C714F76DA8006EC476 /* Scheduler-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Scheduler-iOS-Info.plist"; sourceTree = "<group>"; };
+		11F7A5C914F76DA8006EC476 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		11F7A5CB14F76DA8006EC476 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11F7A5CD14F76DA8006EC476 /* Scheduler-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Scheduler-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		11F7A5CE14F76DA8006EC476 /* SchedulerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SchedulerAppDelegate.h; sourceTree = "<group>"; };
+		11F7A5CF14F76DA8006EC476 /* SchedulerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchedulerAppDelegate.m; sourceTree = "<group>"; };
+		11F7A5D214F76DA8006EC476 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		11F7A5D514F76DA8006EC476 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		11F7A5D714F76DA8006EC476 /* SchedulerMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SchedulerMasterViewController.h; sourceTree = "<group>"; };
+		11F7A5D814F76DA8006EC476 /* SchedulerMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchedulerMasterViewController.m; sourceTree = "<group>"; };
+		11F7A5DA14F76DA8006EC476 /* SchedulerDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SchedulerDetailViewController.h; sourceTree = "<group>"; };
+		11F7A5DB14F76DA8006EC476 /* SchedulerDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchedulerDetailViewController.m; sourceTree = "<group>"; };
+		11F7A5E214F76DA8006EC476 /* Scheduler-iOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scheduler-iOSTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11F7A5E314F76DA8006EC476 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		11F7A5EB14F76DA8006EC476 /* Scheduler-iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Scheduler-iOSTests-Info.plist"; sourceTree = "<group>"; };
+		11F7A5ED14F76DA8006EC476 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		11F7A5EF14F76DA8006EC476 /* Scheduler_iOSTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scheduler_iOSTests.h; sourceTree = "<group>"; };
+		11F7A5F014F76DA8006EC476 /* Scheduler_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scheduler_iOSTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11F7A5B814F76DA7006EC476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F7A5C014F76DA8006EC476 /* UIKit.framework in Frameworks */,
+				11F7A5C214F76DA8006EC476 /* Foundation.framework in Frameworks */,
+				11F7A5C414F76DA8006EC476 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11F7A5DE14F76DA8006EC476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F7A5E414F76DA8006EC476 /* SenTestingKit.framework in Frameworks */,
+				11F7A5E514F76DA8006EC476 /* UIKit.framework in Frameworks */,
+				11F7A5E614F76DA8006EC476 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11F7A5B014F76DA7006EC476 = {
+			isa = PBXGroup;
+			children = (
+				11F7A5C514F76DA8006EC476 /* Scheduler-iOS */,
+				11F7A5E914F76DA8006EC476 /* Scheduler-iOSTests */,
+				11F7A5BE14F76DA8006EC476 /* Frameworks */,
+				11F7A5BC14F76DA8006EC476 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11F7A5BC14F76DA8006EC476 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11F7A5BB14F76DA8006EC476 /* Scheduler-iOS.app */,
+				11F7A5E214F76DA8006EC476 /* Scheduler-iOSTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11F7A5BE14F76DA8006EC476 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11F7A5BF14F76DA8006EC476 /* UIKit.framework */,
+				11F7A5C114F76DA8006EC476 /* Foundation.framework */,
+				11F7A5C314F76DA8006EC476 /* CoreGraphics.framework */,
+				11F7A5E314F76DA8006EC476 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11F7A5C514F76DA8006EC476 /* Scheduler-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				11F7A5CE14F76DA8006EC476 /* SchedulerAppDelegate.h */,
+				11F7A5CF14F76DA8006EC476 /* SchedulerAppDelegate.m */,
+				11F7A5D114F76DA8006EC476 /* MainStoryboard_iPhone.storyboard */,
+				11F7A5D414F76DA8006EC476 /* MainStoryboard_iPad.storyboard */,
+				11F7A5D714F76DA8006EC476 /* SchedulerMasterViewController.h */,
+				11F7A5D814F76DA8006EC476 /* SchedulerMasterViewController.m */,
+				11F7A5DA14F76DA8006EC476 /* SchedulerDetailViewController.h */,
+				11F7A5DB14F76DA8006EC476 /* SchedulerDetailViewController.m */,
+				11F7A5C614F76DA8006EC476 /* Supporting Files */,
+			);
+			path = "Scheduler-iOS";
+			sourceTree = "<group>";
+		};
+		11F7A5C614F76DA8006EC476 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11F7A5C714F76DA8006EC476 /* Scheduler-iOS-Info.plist */,
+				11F7A5C814F76DA8006EC476 /* InfoPlist.strings */,
+				11F7A5CB14F76DA8006EC476 /* main.m */,
+				11F7A5CD14F76DA8006EC476 /* Scheduler-iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11F7A5E914F76DA8006EC476 /* Scheduler-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				11F7A5EF14F76DA8006EC476 /* Scheduler_iOSTests.h */,
+				11F7A5F014F76DA8006EC476 /* Scheduler_iOSTests.m */,
+				11F7A5EA14F76DA8006EC476 /* Supporting Files */,
+			);
+			path = "Scheduler-iOSTests";
+			sourceTree = "<group>";
+		};
+		11F7A5EA14F76DA8006EC476 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11F7A5EB14F76DA8006EC476 /* Scheduler-iOSTests-Info.plist */,
+				11F7A5EC14F76DA8006EC476 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11F7A5BA14F76DA7006EC476 /* Scheduler-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11F7A5F414F76DA8006EC476 /* Build configuration list for PBXNativeTarget "Scheduler-iOS" */;
+			buildPhases = (
+				11F7A5B714F76DA7006EC476 /* Sources */,
+				11F7A5B814F76DA7006EC476 /* Frameworks */,
+				11F7A5B914F76DA7006EC476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Scheduler-iOS";
+			productName = "Scheduler-iOS";
+			productReference = 11F7A5BB14F76DA8006EC476 /* Scheduler-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11F7A5E114F76DA8006EC476 /* Scheduler-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11F7A5F714F76DA8006EC476 /* Build configuration list for PBXNativeTarget "Scheduler-iOSTests" */;
+			buildPhases = (
+				11F7A5DD14F76DA8006EC476 /* Sources */,
+				11F7A5DE14F76DA8006EC476 /* Frameworks */,
+				11F7A5DF14F76DA8006EC476 /* Resources */,
+				11F7A5E014F76DA8006EC476 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11F7A5E814F76DA8006EC476 /* PBXTargetDependency */,
+			);
+			name = "Scheduler-iOSTests";
+			productName = "Scheduler-iOSTests";
+			productReference = 11F7A5E214F76DA8006EC476 /* Scheduler-iOSTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11F7A5B214F76DA7006EC476 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Scheduler;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "CN3 Inc.";
+			};
+			buildConfigurationList = 11F7A5B514F76DA7006EC476 /* Build configuration list for PBXProject "Scheduler-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 11F7A5B014F76DA7006EC476;
+			productRefGroup = 11F7A5BC14F76DA8006EC476 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11F7A5BA14F76DA7006EC476 /* Scheduler-iOS */,
+				11F7A5E114F76DA8006EC476 /* Scheduler-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11F7A5B914F76DA7006EC476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F7A5CA14F76DA8006EC476 /* InfoPlist.strings in Resources */,
+				11F7A5D314F76DA8006EC476 /* MainStoryboard_iPhone.storyboard in Resources */,
+				11F7A5D614F76DA8006EC476 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11F7A5DF14F76DA8006EC476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F7A5EE14F76DA8006EC476 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11F7A5E014F76DA8006EC476 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11F7A5B714F76DA7006EC476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F7A5CC14F76DA8006EC476 /* main.m in Sources */,
+				11F7A5D014F76DA8006EC476 /* SchedulerAppDelegate.m in Sources */,
+				11F7A5D914F76DA8006EC476 /* SchedulerMasterViewController.m in Sources */,
+				11F7A5DC14F76DA8006EC476 /* SchedulerDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11F7A5DD14F76DA8006EC476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F7A5F114F76DA8006EC476 /* Scheduler_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11F7A5E814F76DA8006EC476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11F7A5BA14F76DA7006EC476 /* Scheduler-iOS */;
+			targetProxy = 11F7A5E714F76DA8006EC476 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11F7A5C814F76DA8006EC476 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11F7A5C914F76DA8006EC476 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		11F7A5D114F76DA8006EC476 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11F7A5D214F76DA8006EC476 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		11F7A5D414F76DA8006EC476 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11F7A5D514F76DA8006EC476 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		11F7A5EC14F76DA8006EC476 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11F7A5ED14F76DA8006EC476 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11F7A5F214F76DA8006EC476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11F7A5F314F76DA8006EC476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11F7A5F514F76DA8006EC476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Scheduler-iOS/Scheduler-iOS-Prefix.pch";
+				INFOPLIST_FILE = "Scheduler-iOS/Scheduler-iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		11F7A5F614F76DA8006EC476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Scheduler-iOS/Scheduler-iOS-Prefix.pch";
+				INFOPLIST_FILE = "Scheduler-iOS/Scheduler-iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		11F7A5F814F76DA8006EC476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Scheduler-iOS.app/Scheduler-iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Scheduler-iOS/Scheduler-iOS-Prefix.pch";
+				INFOPLIST_FILE = "Scheduler-iOSTests/Scheduler-iOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		11F7A5F914F76DA8006EC476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Scheduler-iOS.app/Scheduler-iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Scheduler-iOS/Scheduler-iOS-Prefix.pch";
+				INFOPLIST_FILE = "Scheduler-iOSTests/Scheduler-iOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11F7A5B514F76DA7006EC476 /* Build configuration list for PBXProject "Scheduler-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F7A5F214F76DA8006EC476 /* Debug */,
+				11F7A5F314F76DA8006EC476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11F7A5F414F76DA8006EC476 /* Build configuration list for PBXNativeTarget "Scheduler-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F7A5F514F76DA8006EC476 /* Debug */,
+				11F7A5F614F76DA8006EC476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		11F7A5F714F76DA8006EC476 /* Build configuration list for PBXNativeTarget "Scheduler-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F7A5F814F76DA8006EC476 /* Debug */,
+				11F7A5F914F76DA8006EC476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11F7A5B214F76DA7006EC476 /* Project object */;
+}
