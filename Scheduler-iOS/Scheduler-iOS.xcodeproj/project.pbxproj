@@ -35,6 +35,52 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11740A8814F7742D004DF1D2 /* post.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = post.php; sourceTree = "<group>"; };
+		11740A8A14F7742D004DF1D2 /* .htaccess */ = {isa = PBXFileReference; lastKnownFileType = text; path = .htaccess; sourceTree = "<group>"; };
+		11740A8B14F7742D004DF1D2 /* configure.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = configure.php; sourceTree = "<group>"; };
+		11740A8C14F7742D004DF1D2 /* default.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = default.php; sourceTree = "<group>"; };
+		11740A8D14F7742D004DF1D2 /* login.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = login.php; sourceTree = "<group>"; };
+		11740A8E14F7742D004DF1D2 /* main.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = main.php; sourceTree = "<group>"; };
+		11740A9014F7742D004DF1D2 /* connect.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = connect.php; sourceTree = "<group>"; };
+		11740A9214F7742D004DF1D2 /* login.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = login.php; sourceTree = "<group>"; };
+		11740A9314F7742D004DF1D2 /* login_tests.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = login_tests.php; sourceTree = "<group>"; };
+		11740A9514F7742D004DF1D2 /* 429.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = 429.php; sourceTree = "<group>"; };
+		11740A9714F7742D004DF1D2 /* add2home.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = add2home.css; sourceTree = "<group>"; };
+		11740A9814F7742D004DF1D2 /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		11740A9A14F7742D004DF1D2 /* enDemo.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enDemo.PNG; sourceTree = "<group>"; };
+		11740A9B14F7742D004DF1D2 /* me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me.png; sourceTree = "<group>"; };
+		11740A9C14F7742D004DF1D2 /* startup-iPad-landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "startup-iPad-landscape.png"; sourceTree = "<group>"; };
+		11740A9D14F7742D004DF1D2 /* startup-iPad-portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "startup-iPad-portrait.png"; sourceTree = "<group>"; };
+		11740A9E14F7742D004DF1D2 /* startup-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "startup-iphone.png"; sourceTree = "<group>"; };
+		11740A9F14F7742D004DF1D2 /* startup-iphone4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "startup-iphone4.png"; sourceTree = "<group>"; };
+		11740AA014F7742D004DF1D2 /* touch-icon-152a.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "touch-icon-152a.psd"; sourceTree = "<group>"; };
+		11740AA114F7742D004DF1D2 /* touch-icon-152b.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "touch-icon-152b.psd"; sourceTree = "<group>"; };
+		11740AA214F7742D004DF1D2 /* touch-icon-ipad.152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "touch-icon-ipad.152.png"; sourceTree = "<group>"; };
+		11740AA314F7742D004DF1D2 /* touch-icon-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "touch-icon-ipad.png"; sourceTree = "<group>"; };
+		11740AA414F7742D004DF1D2 /* touch-icon-iphone.57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "touch-icon-iphone.57.png"; sourceTree = "<group>"; };
+		11740AA514F7742D004DF1D2 /* touch-icon-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "touch-icon-iphone.png"; sourceTree = "<group>"; };
+		11740AA614F7742D004DF1D2 /* touch-icon-iphone4.copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "touch-icon-iphone4.copy.png"; sourceTree = "<group>"; };
+		11740AA714F7742D004DF1D2 /* touch-icon-iphone4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "touch-icon-iphone4.png"; sourceTree = "<group>"; };
+		11740AA814F7742D004DF1D2 /* touch-icon-iphone4.transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "touch-icon-iphone4.transparent.png"; sourceTree = "<group>"; };
+		11740AAA14F7742D004DF1D2 /* add2home.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = add2home.js; sourceTree = "<group>"; };
+		11740AAB14F7742D004DF1D2 /* functions.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = functions.js; sourceTree = "<group>"; };
+		11740AAC14F7742D004DF1D2 /* jQT-fun.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "jQT-fun.js"; sourceTree = "<group>"; };
+		11740AAD14F7742D004DF1D2 /* jQT-fun.js.zh.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "jQT-fun.js.zh.js"; sourceTree = "<group>"; };
+		11740AAE14F7742D004DF1D2 /* jqtouch-jquery.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "jqtouch-jquery.js"; sourceTree = "<group>"; };
+		11740AAF14F7742D004DF1D2 /* jqtouch-jquery.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "jqtouch-jquery.min.js"; sourceTree = "<group>"; };
+		11740AB014F7742D004DF1D2 /* jqtouch.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = jqtouch.js; sourceTree = "<group>"; };
+		11740AB114F7742D004DF1D2 /* jqtouch.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = jqtouch.min.js; sourceTree = "<group>"; };
+		11740AB314F7742D004DF1D2 /* jquery-1.7.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "jquery-1.7.js"; sourceTree = "<group>"; };
+		11740AB414F7742D004DF1D2 /* jquery-1.7.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "jquery-1.7.min.js"; sourceTree = "<group>"; };
+		11740AB514F7742D004DF1D2 /* zepto.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = zepto.js; sourceTree = "<group>"; };
+		11740AB614F7742D004DF1D2 /* zepto.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = zepto.min.js; sourceTree = "<group>"; };
+		11740AB814F7742D004DF1D2 /* daemon_test.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = daemon_test.php; sourceTree = "<group>"; };
+		11740AB914F7742D004DF1D2 /* db_test.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = db_test.php; sourceTree = "<group>"; };
+		11740ABA14F7742D004DF1D2 /* main.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = main.php; sourceTree = "<group>"; };
+		11740ABB14F7742D004DF1D2 /* post.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = post.php; sourceTree = "<group>"; };
+		11740ABC14F7742D004DF1D2 /* pull.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = pull.php; sourceTree = "<group>"; };
+		11740ABD14F7742D004DF1D2 /* push_test.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = push_test.php; sourceTree = "<group>"; };
+		11740ABE14F7742D004DF1D2 /* read.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = read.php; sourceTree = "<group>"; };
 		11F7A5BB14F76DA8006EC476 /* Scheduler-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scheduler-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F7A5BF14F76DA8006EC476 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		11F7A5C114F76DA8006EC476 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -83,9 +129,144 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11740A8614F7742D004DF1D2 /* PHP-References */ = {
+			isa = PBXGroup;
+			children = (
+				11740A8714F7742D004DF1D2 /* FTP-Feb23 */,
+				11740A8F14F7742D004DF1D2 /* Login-MySQL */,
+				11740A9414F7742D004DF1D2 /* Login-WebKit */,
+				11740AB714F7742D004DF1D2 /* PushNotification-PDO */,
+			);
+			name = "PHP-References";
+			path = "../PHP-References";
+			sourceTree = "<group>";
+		};
+		11740A8714F7742D004DF1D2 /* FTP-Feb23 */ = {
+			isa = PBXGroup;
+			children = (
+				11740A8814F7742D004DF1D2 /* post.php */,
+				11740A8914F7742D004DF1D2 /* public_html */,
+			);
+			path = "FTP-Feb23";
+			sourceTree = "<group>";
+		};
+		11740A8914F7742D004DF1D2 /* public_html */ = {
+			isa = PBXGroup;
+			children = (
+				11740A8A14F7742D004DF1D2 /* .htaccess */,
+				11740A8B14F7742D004DF1D2 /* configure.php */,
+				11740A8C14F7742D004DF1D2 /* default.php */,
+				11740A8D14F7742D004DF1D2 /* login.php */,
+				11740A8E14F7742D004DF1D2 /* main.php */,
+			);
+			path = public_html;
+			sourceTree = "<group>";
+		};
+		11740A8F14F7742D004DF1D2 /* Login-MySQL */ = {
+			isa = PBXGroup;
+			children = (
+				11740A9014F7742D004DF1D2 /* connect.php */,
+				11740A9114F7742D004DF1D2 /* login */,
+			);
+			path = "Login-MySQL";
+			sourceTree = "<group>";
+		};
+		11740A9114F7742D004DF1D2 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				11740A9214F7742D004DF1D2 /* login.php */,
+				11740A9314F7742D004DF1D2 /* login_tests.php */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		11740A9414F7742D004DF1D2 /* Login-WebKit */ = {
+			isa = PBXGroup;
+			children = (
+				11740A9514F7742D004DF1D2 /* 429.php */,
+				11740A9614F7742D004DF1D2 /* css */,
+				11740A9914F7742D004DF1D2 /* img */,
+				11740AA914F7742D004DF1D2 /* javascript */,
+			);
+			path = "Login-WebKit";
+			sourceTree = "<group>";
+		};
+		11740A9614F7742D004DF1D2 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				11740A9714F7742D004DF1D2 /* add2home.css */,
+				11740A9814F7742D004DF1D2 /* style.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		11740A9914F7742D004DF1D2 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				11740A9A14F7742D004DF1D2 /* enDemo.PNG */,
+				11740A9B14F7742D004DF1D2 /* me.png */,
+				11740A9C14F7742D004DF1D2 /* startup-iPad-landscape.png */,
+				11740A9D14F7742D004DF1D2 /* startup-iPad-portrait.png */,
+				11740A9E14F7742D004DF1D2 /* startup-iphone.png */,
+				11740A9F14F7742D004DF1D2 /* startup-iphone4.png */,
+				11740AA014F7742D004DF1D2 /* touch-icon-152a.psd */,
+				11740AA114F7742D004DF1D2 /* touch-icon-152b.psd */,
+				11740AA214F7742D004DF1D2 /* touch-icon-ipad.152.png */,
+				11740AA314F7742D004DF1D2 /* touch-icon-ipad.png */,
+				11740AA414F7742D004DF1D2 /* touch-icon-iphone.57.png */,
+				11740AA514F7742D004DF1D2 /* touch-icon-iphone.png */,
+				11740AA614F7742D004DF1D2 /* touch-icon-iphone4.copy.png */,
+				11740AA714F7742D004DF1D2 /* touch-icon-iphone4.png */,
+				11740AA814F7742D004DF1D2 /* touch-icon-iphone4.transparent.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		11740AA914F7742D004DF1D2 /* javascript */ = {
+			isa = PBXGroup;
+			children = (
+				11740AAA14F7742D004DF1D2 /* add2home.js */,
+				11740AAB14F7742D004DF1D2 /* functions.js */,
+				11740AAC14F7742D004DF1D2 /* jQT-fun.js */,
+				11740AAD14F7742D004DF1D2 /* jQT-fun.js.zh.js */,
+				11740AAE14F7742D004DF1D2 /* jqtouch-jquery.js */,
+				11740AAF14F7742D004DF1D2 /* jqtouch-jquery.min.js */,
+				11740AB014F7742D004DF1D2 /* jqtouch.js */,
+				11740AB114F7742D004DF1D2 /* jqtouch.min.js */,
+				11740AB214F7742D004DF1D2 /* lib */,
+			);
+			path = javascript;
+			sourceTree = "<group>";
+		};
+		11740AB214F7742D004DF1D2 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				11740AB314F7742D004DF1D2 /* jquery-1.7.js */,
+				11740AB414F7742D004DF1D2 /* jquery-1.7.min.js */,
+				11740AB514F7742D004DF1D2 /* zepto.js */,
+				11740AB614F7742D004DF1D2 /* zepto.min.js */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		11740AB714F7742D004DF1D2 /* PushNotification-PDO */ = {
+			isa = PBXGroup;
+			children = (
+				11740AB814F7742D004DF1D2 /* daemon_test.php */,
+				11740AB914F7742D004DF1D2 /* db_test.php */,
+				11740ABA14F7742D004DF1D2 /* main.php */,
+				11740ABB14F7742D004DF1D2 /* post.php */,
+				11740ABC14F7742D004DF1D2 /* pull.php */,
+				11740ABD14F7742D004DF1D2 /* push_test.php */,
+				11740ABE14F7742D004DF1D2 /* read.php */,
+			);
+			path = "PushNotification-PDO";
+			sourceTree = "<group>";
+		};
 		11F7A5B014F76DA7006EC476 = {
 			isa = PBXGroup;
 			children = (
+				11740A8614F7742D004DF1D2 /* PHP-References */,
 				11F7A5C514F76DA8006EC476 /* Scheduler-iOS */,
 				11F7A5E914F76DA8006EC476 /* Scheduler-iOSTests */,
 				11F7A5BE14F76DA8006EC476 /* Frameworks */,
@@ -451,6 +632,7 @@
 				11F7A5F614F76DA8006EC476 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11F7A5F714F76DA8006EC476 /* Build configuration list for PBXNativeTarget "Scheduler-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +641,7 @@
 				11F7A5F914F76DA8006EC476 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
